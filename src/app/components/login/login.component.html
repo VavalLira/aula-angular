@@ -1,0 +1,18 @@
+
+<main>
+    <form>
+
+        <header>Moderna Tecnologia</header>
+
+        <div class="field">
+            <input placeholder="Email" type="text" [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+        </div>
+        <div class="field">
+            <input placeholder="Senha" type="password"  [(ngModel)]="senha" [ngModelOptions]="{standalone: true}">
+        </div>
+
+        <div class="erro" *ngIf="erro">Login ou senha inválidos</div>
+
+        <button type="button" (click)="entrar()">Entrar</button>
+    </form>
+</main>

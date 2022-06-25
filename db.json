@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Teste",
+      "email": "email@email.com",
+      "senha": "123456",
+      "obs": "123456"
+    },
+    {
+      "id": 2,
+      "nome": "Teste",
+      "email": "email2@email.com",
+      "senha": "123456",
+      "obs": "123456"
+    }
+  ]
+}
